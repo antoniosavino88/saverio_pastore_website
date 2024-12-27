@@ -11,6 +11,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- MY CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -58,55 +60,142 @@
             <li class="nav-item">
               <a class="nav-link nav-item-color" href="#">Teaching</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link nav-item-color" href="#contatti">Contatti</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- FINE NAVBAR -->
     <main>
+      <!-- HEADER -->
       <header
-        class="container-fluid vh-100 d-flex flex-column justify-content-center"
+        class="container-fluid vh-100 d-flex flex-column justify-content-center overflow-hidden"
       >
-        <div class="row">
+        <div class="row" data-aos="zoom-in" data-aos-duration="3000">
           <h1 class="title title-header text-center p-5">Saverio Pastore</h1>
         </div>
         <div class="row justify-content-center">
-          <div class="col-2 h-100">
+          <div
+            class="col-2 h-100"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          >
             <a href="#" class="d-flex justify-content-center"
               ><img
                 src="./media/1.png"
-                alt=""
+                alt="logo torta nuziale"
                 class="logo-custom transition-short"
             /></a>
           </div>
-          <div class="col-2 h-100">
+          <div class="col-2 h-100" data-aos="fade-up" data-aos-duration="3000">
             <a href="#" class="d-flex justify-content-center"
               ><img
                 src="./media/2.png"
-                alt=""
+                alt="logo batteria"
                 class="logo-custom transition-short"
             /></a>
           </div>
-          <div class="col-2 h-100">
+          <div
+            class="col-2 h-100"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+          >
             <a href="#" class="d-flex justify-content-center"
               ><img
                 src="./media/3.png"
-                alt=""
+                alt="logo libro"
                 class="logo-custom transition-short"
             /></a>
           </div>
         </div>
-        <!-- <div class="row">
+      </header>
+      <!-- FINE HEADER -->
+
+      <!-- CURRICULUM ARTISTICO -->
+      <div class="container-fluid cv-custom">
+        <h2 class="text-center display-1 p-5">Curriculum Artistico</h2>
+        <p class="px-5 fs-3">
+          Nato nel 1989, fin da piccolo manifesta interesse per la musica grazie
+          alla presenza di musicisti nella sua famiglia, da cui trae i primi
+          insegnamenti. L’interesse passerà prima dal pianoforte e dalla
+          chitarra per poi sfociare sulla batteria, il primo amore. Le prime
+          esperienze arrivano all’età di 15 anni, quando attraverso le prime
+          band comincia ad esplorare le sonorità e il fascino dello strumento
+          che lo accompagneranno fino ad oggi.
+        </p>
+        <p class="p-5 fs-3">
+          Dopo alcuni anni di studi da autodidatta e dopo aver militato in
+          decine di band dove sperimenta anche le prime esperienze di
+          registrazione, decide di iscriversi al conservatorio di Bari N.
+          Piccinni , dove frequenta il corso pre-accademico di batteria jazz. In
+          questa prima fase affronta gli studi con Fabio Accardi, Vittorio
+          Marinoni ed Enzo Zirilli. Porta avanti gli studi affrontando il
+          triennio accademico di batteria jazz guidato dal M. Giuseppe Berlen,
+          fino al conseguimento del diploma di primo livello. Questa esperienza
+          lo segna marcatamente in quanto lo studio dei grandi maestri del jazz
+          ha cambiato radicalmente l’approccio sulla batteria.
+        </p>
+        <p class="px-5 pb-5 fs-3">
+          Durante gli studi ha partecipato a svariate attività e masterclass
+          come quella perseguita nel 2018, curata dal M. Alfredo Romeo conclusa
+          con un concerto aperto da un’esibizione di sole batterie, tenutosi
+          presso l’auditorium Nino Rota di Bari. Attualmente insegna sia
+          privatamente che presso scuole sul territorio pugliese e continua la
+          sua attività concertistica in numerosi progetti di musica inedita,
+          formazioni dedite al tributo di artisti di fama nazionale ed
+          internazionale e nel ramo del wedding.
+        </p>
+      </div>
+      <!-- FINE CURRICULUM ARTISTICO -->
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid">
+      <div class="row p-5 text-md-center justify-content-evenly">
+        <h3 class="title-footer p-3 fs-2" id="contatti">Contatti</h3>
+        <p class="fs-4">
+          <img
+            src="./media/phone.png"
+            alt="logo telefono"
+            class="logo-footer"
+          />
+          <a href="tel:3488669905" class="contatti-footer transition-short"
+            >348 866 9905</a
+          >
+        </p>
+        <p class="fs-4">
+          <img src="./media/mail.png" alt="logo mail" class="logo-footer" />
           <a
             href="mailto:saveriopastore3@gmail.com"
-            class="text-decoration-none contatti-colore"
+            class="contatti-footer transition-short"
             >saveriopastore3@gmail.com</a
           >
-        </div> -->
-      </header>
+        </p>
+        <div class="col-2 d-flex justify-content-evenly">
+          <a
+            href="https://www.instagram.com/saveriopastore_?igsh=NGF2MHB6b3NyZGtm"
+            target="_blank"
+            ><img
+              src="./media/instagram.png"
+              alt="logo instagram"
+              class="logo-social transition-short"
+          /></a>
+          <a href="https://www.facebook.com/share/15gto9cTBA/" target="_blank"
+            ><img
+              src="./media/facebook.png"
+              alt="logo facebook"
+              class="logo-social transition-short"
+          /></a>
+        </div>
+      </div>
 
-      <div style="height: 2000px"></div>
-    </main>
+      <div class="row text-center mt-5">
+        <p>© 2024 Saverio Pastore</p>
+      </div>
+    </footer>
+    <!-- FINE FOOTER -->
 
     <!-- BOOTSTRAP JS -->
     <script
@@ -114,6 +203,11 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- MY JS -->
     <script src="main.js"></script>
   </body>
