@@ -1,0 +1,29 @@
+:root {
+  --color-primary: #4b2833;
+  --color-secondary: #f4f4eb;
+  --color-accent: #c4b59c;
+}
+
+@font-face {
+  font-family: "Across the Road";
+  src: url("assets/fonts/Across_the_Road.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bahnschrift";
+  src: url("assets/fonts/Bahnschrift.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Bahnschrift", sans-serif;
+  background-color: var(--color-primary);
+}
+
+.title {
+  font-family: "Across the Road";
+  color: var(--color-accent);
+}
