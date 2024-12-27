@@ -20,10 +20,70 @@
 
 * {
   font-family: "Bahnschrift", sans-serif;
+  font-weight: light;
+}
+
+body {
   background-color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .title {
   font-family: "Across the Road";
   color: var(--color-accent);
+}
+
+.transition {
+  transition: 1.5s;
+}
+
+.transition-short {
+  transition: 0.5s;
+}
+
+/* NAVBAR */
+.nav-scrolled {
+  margin: 5vh 10vw;
+  border: 2px solid var(--color-accent);
+  border-radius: 20px;
+  backdrop-filter: blur(7px);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-item-color {
+  color: var(--color-accent) !important;
+}
+
+.active-custom {
+  font-weight: bold;
+}
+
+.nav-item-color:hover {
+  color: var(--color-secondary) !important;
+}
+
+/* HEADER */
+.title-header {
+  font-size: 12.5rem;
+}
+
+.logo-custom {
+  width: 9rem;
+}
+
+.logo-custom:hover {
+  transform: rotate(-360deg);
+}
+
+.contatti-colore {
+  color: var(--color-accent);
+}
+
+@media screen and (max-width: 992px) {
+  .title-header {
+    font-size: 4rem;
+  }
+  .logo-custom {
+    width: 3rem;
+  }
 }
