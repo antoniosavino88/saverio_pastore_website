@@ -61,6 +61,14 @@ body {
   color: var(--color-secondary) !important;
 }
 
+.nav-section-custom {
+  color: var(--color-primary);
+}
+
+.nav-section-custom:hover {
+  color: var(--color-accent);
+}
+
 /* HEADER */
 .title-header {
   font-size: 12.5rem;
@@ -71,7 +79,7 @@ body {
 }
 
 .logo-custom:hover {
-  width: 8.5rem;
+  transform: scale(0.9);
 }
 
 .contatti-colore {
@@ -79,10 +87,20 @@ body {
 }
 
 /* CV */
-.cv-custom {
+.section-white-custom {
   background-color: var(--color-secondary);
   color: var(--color-primary);
   min-height: 100vh;
+}
+
+/* TEACHING */
+.title-section {
+  font-size: 4rem;
+  padding: 3rem;
+}
+
+.list-custom {
+  list-style: none;
 }
 
 /* FOOTER */
@@ -97,6 +115,10 @@ body {
 .contatti-footer:hover {
   text-decoration: none;
   color: var(--color-secondary);
+}
+
+.p-contatti-footer {
+  font-size: 1.6rem;
 }
 
 .logo-social:hover {
@@ -122,5 +144,9 @@ body {
 
   .logo-footer {
     width: 30px;
+  }
+
+  .p-contatti-footer {
+    font-size: 1rem;
   }
 }
