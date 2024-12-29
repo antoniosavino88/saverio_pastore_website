@@ -6,6 +6,7 @@ let wedding = document.querySelector("#wedding");
 let liveMusic = document.querySelector("#liveMusic");
 let teaching = document.querySelector("#teaching");
 let contatti = document.querySelector("#contatti");
+let hamburger = document.querySelector("#hamburger");
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 0) {
@@ -46,3 +47,7 @@ window.addEventListener("scroll", () => {
     }
   }
 });
+
+// hamburger.addEventListener("click", () => {
+//   navbar.classList.add("nav-scrolled");
+// });
