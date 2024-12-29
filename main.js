@@ -17,6 +17,9 @@ window.addEventListener("scroll", () => {
       liveMusic.classList.remove("nav-section-custom");
       teaching.classList.remove("nav-section-custom");
       contatti.classList.remove("nav-section-custom");
+    } else {
+      title.classList.remove("hidden-visibility");
+      title.classList.add("visible-visibility");
     }
   } else {
     navbar.classList.remove("nav-scrolled");
@@ -27,6 +30,9 @@ window.addEventListener("scroll", () => {
       liveMusic.classList.add("nav-section-custom");
       teaching.classList.add("nav-section-custom");
       contatti.classList.add("nav-section-custom");
+    } else {
+      title.classList.add("hidden-visibility");
+      title.classList.remove("visible-visibility");
     }
   }
 });
