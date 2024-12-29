@@ -105,10 +105,18 @@ body {
   min-height: 100vh;
 }
 
+.section-title {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.section-paragraph {
+  font-size: 1.75rem;
+}
+
 /* TEACHING */
-.title-section {
-  font-size: 4rem;
-  padding: 3rem;
+.padding-top {
+  padding-top: 6rem;
 }
 
 .list-custom {
@@ -142,6 +150,7 @@ body {
 }
 
 @media screen and (max-width: 992px) {
+  /* NAVBAR */
   .nav-scrolled {
     margin: 0vh 0vw;
     border: 0px solid var(--color-accent);
@@ -150,6 +159,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
   }
 
+  /* HEADER */
   .title-header {
     font-size: 4rem;
   }
@@ -158,6 +168,17 @@ body {
     width: 3rem;
   }
 
+  /* CV */
+  .section-title {
+    font-size: 1.6rem;
+    text-align: start;
+  }
+
+  .section-paragraph {
+    font-size: 1rem;
+  }
+
+  /* FOOTER */
   .logo-footer {
     width: 30px;
   }
