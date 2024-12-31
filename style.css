@@ -42,17 +42,30 @@ body {
   border: 2px solid var(--color-accent);
   border-radius: 20px;
   backdrop-filter: blur(7px);
-  /* background-color: rgba(0, 0, 0, 0.5); */
   background-color: var(--color-primary-transparent);
 }
 
 .title {
   font-family: "Across the Road";
   color: var(--color-accent);
+  transition: color 0.5s ease-in-out;
 }
 
-.title:hover {
+.title-home:hover {
   color: var(--color-secondary);
+  transition: color 0.5s ease-in-out;
+}
+
+.hidden-visibility {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out, visibility 0s linear 0.5s;
+}
+
+.visible-visibility {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .nav-item-color {
@@ -83,20 +96,10 @@ body {
   color: var(--color-secondary);
 }
 
-.hidden-visibility {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.5s ease-in-out, visibility 0s linear 0.5s;
-}
-
-.visible-visibility {
-  opacity: 1;
-  visibility: visible;
-  transition: opacity 0.5s ease-in-out;
-}
-
 /* HEADER */
 .title-header {
+  font-family: "Across the Road";
+  color: var(--color-accent);
   font-size: 12.5rem;
 }
 
