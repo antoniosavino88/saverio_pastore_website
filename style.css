@@ -92,8 +92,12 @@ body {
   color: var(--color-accent);
 }
 
+.nav-section-custom-2:visited {
+  color: var(--color-accent);
+}
+
 .nav-section-custom-2:hover {
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 /* HEADER */
@@ -172,6 +176,11 @@ body {
     margin: 0vh 0vw;
     border: 0px solid var(--color-accent);
     border-radius: 0px;
+    backdrop-filter: blur(7px);
+    background-color: var(--color-primary-transparent);
+  }
+
+  .mobile-opacity {
     backdrop-filter: blur(7px);
     background-color: var(--color-primary-transparent);
   }
