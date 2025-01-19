@@ -1,8 +1,10 @@
 :root {
   --color-primary: #4b2833;
   --color-primary-transparent: #4b2833c0;
+  --color-primary-transparent2: #4b283323;
   --color-secondary: #f4f4eb;
   --color-accent: #c4b59c;
+  --color-accent-transparent: #c4b59cc0;
 }
 
 @font-face {
@@ -43,6 +45,14 @@ body {
   border-radius: 20px;
   backdrop-filter: blur(7px);
   background-color: var(--color-primary-transparent);
+}
+
+.nav-scrolled-2 {
+  margin: 5vh 10vw;
+  border: 2px solid var(--color-accent);
+  border-radius: 20px;
+  backdrop-filter: blur(7px);
+  background-color: var(--color-primary-transparent2);
 }
 
 .title {
@@ -93,11 +103,11 @@ body {
 }
 
 .nav-section-custom-2:visited {
-  color: var(--color-accent);
+  color: var(--color-primary);
 }
 
 .nav-section-custom-2:hover {
-  color: var(--color-primary);
+  color: var(--color-accent);
 }
 
 /* HEADER */
@@ -111,11 +121,15 @@ body {
   width: 9rem;
 }
 
-.logo-custom:hover {
+.scale-transition:hover {
   transform: scale(0.9);
 }
 
 .contatti-colore {
+  color: var(--color-accent);
+}
+
+.title-logo {
   color: var(--color-accent);
 }
 
@@ -127,7 +141,7 @@ body {
 }
 
 .section-title {
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
 }
 
@@ -185,13 +199,23 @@ body {
     background-color: var(--color-primary-transparent);
   }
 
+  .mobile-opacity-2 {
+    backdrop-filter: blur(7px);
+    background-color: var(--color-primary-transparent2);
+  }
+
   /* HEADER */
   .title-header {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .logo-custom {
     width: 3rem;
+  }
+
+  .title-logo {
+    font-size: 9px;
+    width: 100px;
   }
 
   /* CV */

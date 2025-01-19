@@ -12,6 +12,7 @@ window.addEventListener("scroll", () => {
   if (window.scrollY > 0) {
     navbar.classList.add("nav-scrolled");
     if (!home.classList.contains("active-custom")) {
+      navbar.classList.add("nav-scrolled-2");
       // title.classList.remove("nav-section-custom");
       // home.classList.remove("nav-section-custom");
       // wedding.classList.remove("nav-section-custom");
@@ -30,6 +31,7 @@ window.addEventListener("scroll", () => {
   } else {
     navbar.classList.remove("nav-scrolled");
     if (!home.classList.contains("active-custom")) {
+      navbar.classList.remove("nav-scrolled-2");
       // title.classList.add("nav-section-custom");
       // home.classList.add("nav-section-custom");
       // wedding.classList.add("nav-section-custom");
