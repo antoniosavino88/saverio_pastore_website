@@ -49,3 +49,9 @@ window.addEventListener("scroll", () => {
     }
   }
 });
+
+hamburger.addEventListener("click", () => {
+  if (!navbar.classList.contains("nav-scrolled")) {
+    navbar.classList.add("nav-scrolled");
+  }
+});
