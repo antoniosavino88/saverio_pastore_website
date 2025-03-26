@@ -181,6 +181,10 @@ body {
 }
 
 /* WEDDING */
+.loghi-marks {
+  width: 10rem;
+}
+
 .marks-video {
   width: 80%;
 }
@@ -196,7 +200,7 @@ body {
 
 /* LIVE MUSIC */
 .shadow-custom {
-  box-shadow: 0px 0px 0px 2px, var(--color-primary-transparent2) 0px 0px 0px 4px;
+  box-shadow: 0px 0px 0px 1px, var(--color-primary) 0px 0px 0px 2px;
 }
 
 /* FOOTER */
@@ -233,6 +237,7 @@ body {
     border-radius: 0px;
     backdrop-filter: blur(7px);
     background-color: var(--color-primary-transparent);
+    max-height: fit-content;
   }
 
   .mobile-opacity {
