@@ -1,81 +1,88 @@
 <!DOCTYPE html>
 <html lang="it">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Saverio Pastore</title>
-    <!-- BOOTSTRAP CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <!-- AOS CSS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <!-- MY CSS -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <nav
-      class="navbar navbar-expand-lg fixed-top transition nav-section-custom-2 mobile-opacity-2"
-      id="navbar"
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saverio Pastore</title>
+  <!-- BOOTSTRAP CSS -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+  crossorigin="anonymous"
+  />
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav
+  class="navbar navbar-expand-lg fixed-top transition nav-section-custom-2 mobile-opacity-2"
+  id="navbar"
+  >
+  <div class="container-fluid">
+    <a
+    class="navbar-brand title nav-section-custom-2 transition-short fs-1 p-0 mt-2"
+    id="title"
+    href="./index.html"
+    >Saverio Pastore</a
     >
-      <div class="container-fluid">
+    <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    >
+    <span class="navbar-toggler-icon" id="hamburger"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-end">
+      <li class="nav-item">
         <a
-          class="navbar-brand title nav-section-custom-2 transition-short fs-1 p-0 mt-2"
-          id="title"
-          href="./index.html"
-          >Saverio Pastore</a
+        class="nav-link nav-section-custom-2 transition-short"
+        aria-current="page"
+        href="./index.html"
+        id="home"
+        >Home</a
         >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon" id="hamburger"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-end">
-            <li class="nav-item">
-              <a
-                class="nav-link nav-section-custom-2 transition-short"
-                aria-current="page"
-                href="./index.html"
-                id="home"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-section-custom-2 transition-short" href="./wedding.html" id="wedding">Wedding</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-section-custom-2 transition-short" href="./live_music.html" id="liveMusic">Live Music</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-section-custom-2 transition-short active-custom" href="#" id="teaching">Teaching</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-section-custom-2 transition-short" href="#contatti_" id="contatti">Contatti</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- FINE NAVBAR -->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-section-custom-2 transition-short" href="./wedding.html" id="wedding">Wedding</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-section-custom-2 transition-short" href="./live_music.html" id="liveMusic">Live Music</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-section-custom-2 transition-short active-custom" href="#" id="teaching">Teaching</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-section-custom-2 transition-short" href="#contatti_" id="contatti">Contatti</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+<!-- FINE NAVBAR -->
 
-    <main>
-      <!-- TEACHING -->
-      <section class="container-fluid section-white-custom padding-top py-5">
-        <h1 class="text-center section-title">Teaching</h1>
-        <p class="px-5 pt-5 section-paragraph">Impartisco lezioni di <strong class="fw-normal">batteria</strong> e teoria musicale.
-                Nello specifico offro un percorso di formazione che parte dalle basi di postura corretta, impugnatura delle bacchette, body percussion e rudimenti.
-                Il percorso prevede l’utilizzo di partiture da me create e manuali teorici già esistenti.</p>
+<main>
+  <!-- TEACHING -->
+  <section class="container section-white-custom padding-top py-5 mt-5 overflow-hidden">
+    <div class="row justify-content-center">
+      <div class="col-10 col-md-12 d-flex justify-content-center"
+      data-aos="fade-right"
+      data-aos-duration="3000">
+      <img src="media/teach.jpg" alt="" class="img-fluid rounded">
+    </div>
+    
+    <div class="col-12 ms-md-5">
+      <p class="px-5 pt-5 section-paragraph">Impartisco lezioni di <strong class="fw-normal">batteria</strong> e teoria musicale.
+        Nello specifico offro un percorso di formazione che parte dalle basi di postura corretta, impugnatura delle bacchette, body percussion e rudimenti.
+        Il percorso prevede l’utilizzo di partiture da me create e manuali teorici già esistenti.</p>
         <p class="px-5 section-paragraph">Durante le mie lezioni si approfondiscono altri elementi che circondano il panorama della musica intorno allo strumento come:</p>
         <ul class="list-custom px-5 ms-lg-5 section-paragraph">
           <li><em>Ear Training</em></li>
@@ -84,72 +91,84 @@
           <li><em>Studio delle dinamiche in rapporto alla band</em></li>
         </ul>
         <p class="px-5 pb-5 section-paragraph">Inoltre l’esecuzione dei brani trattati durante il corso, saranno accompagnati da me con l’uso di altri strumenti come chitarra e pianoforte, in modo da creare l’idea di band anche a chi non ha mai suonato in compagnia di una formazione.
-                Le lezioni si svolgono presso il mio studio sito in Modugno oppure a domicilio, garantendo di essere in possesso di un luogo idoneo a svolgere le lezioni e ad essere in possesso di una batteria acustica o elettronica.</p>
-      </section>
-      <!-- FINE TEACHING -->
-    </main>
+          Le lezioni si svolgono presso il mio studio sito in Modugno oppure a domicilio, garantendo di essere in possesso di un luogo idoneo a svolgere le lezioni e ad essere in possesso di una batteria acustica o elettronica.</p>
+        </div>
+        
+        <div class="col-10 col-md-12 d-flex justify-content-center"
+        data-aos="fade-left"
+        data-aos-duration="3000">
+        <img src="media/teach2.jpg" alt="" class="img-fluid rounded">
+      </div>
+    </div>
+    
+    
+    
+    
+  </section>
+  <!-- FINE TEACHING -->
+</main>
 
-       <!-- FOOTER -->
-       <div class="bg-3 striscia"></div>
-       <footer class="container-fluid bg-1">
-         <div class="row p-5 text-md-center justify-content-evenly">
-           <h3 class="title-footer p-3 fs-2" id="contatti_">Contatti</h3>
-           <p class="p-contatti-footer">
-             <img
-               src="./media/phone.png"
-               alt="logo telefono"
-               class="logo-footer"
-             />
-             <a href="tel:3488669905" class="contatti-footer transition-short ms-2"
-               >348 866 9905</a
-             >
-           </p>
-           <p class="p-contatti-footer">
-             <img src="./media/mail.png" alt="logo mail" class="logo-footer" />
-             <a
-               href="mailto:saveriopastore3@gmail.com"
-               class="contatti-footer transition-short ms-2"
-               >saveriopastore3@gmail.com</a
-             >
-           </p>
-           <div class="col-12 d-flex justify-content-center mt-3">
-             <a
-               href="https://www.instagram.com/saveriopastore_?igsh=NGF2MHB6b3NyZGtm"
-               target="_blank"
-               ><img
-                 src="./media/instagram.png"
-                 alt="logo instagram"
-                 class="logo-social transition-short px-3"
-             /></a>
-             <a href="https://www.facebook.com/share/15gto9cTBA/" target="_blank"
-               ><img
-                 src="./media/facebook.png"
-                 alt="logo facebook"
-                 class="logo-social transition-short px-3"
-             /></a>
-           </div>
-         </div>
-         <hr />
-         <div class="row text-center mt-3">
-           <p class="copyright-color">© 2025 Saverio Pastore</p>
-         </div>
-       </footer>
-       <!-- FINE FOOTER -->
-      
-          <!-- BOOTSTRAP JS -->
-          <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"
-          ></script>
-          <!-- AOS JS -->
-          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-          <script>
-            AOS.init();
-          </script>
-          <!-- MY JS -->
-          <script src="main.js"></script>
-        </body>
-      </html>      
-  </body>
+<!-- FOOTER -->
+<div class="bg-3 striscia"></div>
+<footer class="container-fluid bg-1">
+  <div class="row p-5 text-md-center justify-content-evenly">
+    <h3 class="title-footer p-3 fs-2" id="contatti_">Contatti</h3>
+    <p class="p-contatti-footer">
+      <img
+      src="./media/phone.png"
+      alt="logo telefono"
+      class="logo-footer"
+      />
+      <a href="tel:3488669905" class="contatti-footer transition-short ms-2"
+      >348 866 9905</a
+      >
+    </p>
+    <p class="p-contatti-footer">
+      <img src="./media/mail.png" alt="logo mail" class="logo-footer" />
+      <a
+      href="mailto:saveriopastore3@gmail.com"
+      class="contatti-footer transition-short ms-2"
+      >saveriopastore3@gmail.com</a
+      >
+    </p>
+    <div class="col-12 d-flex justify-content-center mt-3">
+      <a
+      href="https://www.instagram.com/saveriopastore_?igsh=NGF2MHB6b3NyZGtm"
+      target="_blank"
+      ><img
+      src="./media/instagram.png"
+      alt="logo instagram"
+      class="logo-social transition-short px-3"
+      /></a>
+      <a href="https://www.facebook.com/share/15gto9cTBA/" target="_blank"
+      ><img
+      src="./media/facebook.png"
+      alt="logo facebook"
+      class="logo-social transition-short px-3"
+      /></a>
+    </div>
+  </div>
+  <hr />
+  <div class="row text-center mt-3">
+    <p class="copyright-color">© 2025 Saverio Pastore</p>
+  </div>
+</footer>
+<!-- FINE FOOTER -->
+
+<!-- BOOTSTRAP JS -->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+crossorigin="anonymous"
+></script>
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- MY JS -->
+<script src="main.js"></script>
+</body>
+</html>      
+</body>
 </html>
