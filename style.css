@@ -203,6 +203,10 @@ body {
   box-shadow: 0px 0px 0px 1px, var(--color-primary) 0px 0px 0px 2px;
 }
 
+.img-cont-custom {
+  height: 20rem;
+}
+
 /* FOOTER */
 .title-footer {
   color: var(--color-secondary);
@@ -271,6 +275,11 @@ body {
 
   .section-paragraph {
     font-size: 1rem;
+  }
+
+  /* LIVE MUSIC */
+  .img-cont-custom {
+    height: auto;
   }
 
   /* FOOTER */
