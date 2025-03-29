@@ -185,8 +185,24 @@ body {
   width: 10rem;
 }
 
+.contatti-custom {
+  color: var(--color-primary);
+}
+
+.contatti-custom:hover {
+  color: var(--color-accent);
+}
+
 .marks-video {
   width: 80%;
+}
+
+.w-logo {
+  width: 30px;
+}
+
+.font-custom {
+  font-size: 0.8rem;
 }
 
 /* TEACHING */
